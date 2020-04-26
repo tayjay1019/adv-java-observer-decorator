@@ -58,7 +58,7 @@ public class Register {
 
                 } while (extraChoice != 9);
 
-                System.out.println("That will be " + beverage.cost());
+                System.out.printf("That will be $%.2f\n", beverage.cost());
                 System.out.println("Enjoy your " + beverage.getDescription());
             }
 
